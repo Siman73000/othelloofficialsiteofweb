@@ -38,9 +38,9 @@ export function SiteHeader({ className }: { className?: string }) {
         <Link href="/" className="flex items-center gap-3">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/othello.png"
+            src="/othello.ico"
             alt="Othello OS"
-            className="h-9 w-9 rounded-xl border border-white/10 bg-white/5 object-cover"
+            className="h-9 w-9 rounded-xl border border-white/10 bg-white/5 object-contain"
           />
 
           <div className="leading-tight">
