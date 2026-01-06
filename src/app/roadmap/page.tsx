@@ -38,7 +38,7 @@ export default function Roadmap() {
           <div className="glass rounded-2xl p-5">
             <div className="text-base font-semibold">Long-term / Experimental</div>
             <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-white/70">
-              <li>RTOS-style scheduling experiments</li>
+              <li>Scheduling experiments</li>
               <li>SMP bring-up + inter-CPU comms</li>
               <li>Higher-half kernel + stronger isolation</li>
               <li>Native TLS/crypto stack experiments</li>

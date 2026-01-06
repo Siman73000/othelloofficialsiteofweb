@@ -124,7 +124,7 @@ cd OS_Build
       <Section
         eyebrow="Focus areas"
         title="What Othello focuses on"
-        subtitle="Designed to be educational, modular, and extensible—so you can trace the whole boot-to-desktop story end-to-end."
+        subtitle="Designed to be educational, modular, and extensible so you can trace the whole boot-to-desktop story end-to-end."
       >
         <FeatureGrid />
       </Section>

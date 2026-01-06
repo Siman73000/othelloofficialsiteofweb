@@ -16,7 +16,6 @@ export default function GettingStarted() {
             <ul className="mt-3 list-disc space-y-2 pl-5 text-white/70">
               <li>Rust toolchain (bare-metal target like <code className="rounded bg-white/10 px-1 py-0.5">x86_64-unknown-none</code>)</li>
               <li>Assembler (nasm/yasm)</li>
-              <li>C toolchain (gcc/clang)</li>
               <li>QEMU (or another x86_64 emulator/hypervisor)</li>
             </ul>
           </div>
@@ -47,7 +46,7 @@ cd OS_Build
         <div className="glass rounded-2xl p-6">
           <h2 className="text-lg font-semibold">Run & Iterate</h2>
           <p className="mt-2 max-w-3xl text-white/70">
-            If you’re iterating quickly, keep a second terminal open for logs and serial output. When something breaks early in boot,
+            If you&apos;re iterating quickly, keep a second terminal open for logs and serial output. When something breaks early in boot,
             add small stage markers and error codes so you can pinpoint exactly where the handoff failed.
           </p>
         </div>
