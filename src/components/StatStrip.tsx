@@ -9,7 +9,11 @@ const stats = [
 
 export function StatStrip() {
   return (
-    <div className="grid grid-cols-2 gap-3 xl:grid-cols-4">
+    // NOTE: This strip lives inside a narrower right-side panel on the home page.
+    // Switching to 4 columns at `xl` made each card too narrow, which caused the
+    // text to wrap aggressively ("squished"). Keep it responsive while allowing
+    // the cards to grow with their content.
+    <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
       {stats.map((s) => {
         const Icon = s.icon;
         return (
@@ -20,7 +24,9 @@ export function StatStrip() {
               </div>
               <div className="min-w-0">
                 <div className="text-xs text-white/55 leading-tight">{s.label}</div>
-                <div className="text-sm font-semibold text-white leading-tight whitespace-normal break-words">{s.value}</div>
+                <div className="mt-0.5 text-sm font-semibold text-white leading-snug whitespace-normal break-words">
+                  {s.value}
+                </div>
               </div>
             </div>
           </div>
